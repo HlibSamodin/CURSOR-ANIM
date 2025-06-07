@@ -26,7 +26,6 @@ document.addEventListener('mousemove', e => {
 });
 
 function animate() {
-  // ring follows cursor
   ringX += (mouseX - ringX) * 0.1;
   ringY += (mouseY - ringY) * 0.1;
   ring.style.left = ringX + 'px';
